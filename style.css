@@ -1,0 +1,129 @@
+img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DBC9B8;
+}
+
+/*parallax start*/
+
+#background_image {
+    height: 40vh;
+    width: 100%;
+    background-image: url(images/back1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#background_image1 {
+    height: 40vh;
+    width: 100%;
+    background-image: url(images/back2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#background_image2 {
+    height: 40vh;
+    width: 100%;
+    background-image: url(images/html.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#background_image3 {
+    height: 40vh;
+    width: 100%;
+    background-image: url(images/movie.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#background_image4 {
+    height: 40vh;
+    width: 100%;
+    background-image: url(images/anima.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#background_image5 {
+    height: 40vh;
+    width: 100%;
+    background-image: url(images/mobil.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*parallax slut*/
+
+/*menu*/
+
+.dropbtn {
+    color: white;
+    padding: 22px;
+    font-size: 25px;
+    font-weight: bolder;
+    border: none;
+    font-family: 'open sans', sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: #DBC9B8;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'open sans', sans-serif;
+}
+
+
+.dropdown-content a:hover {
+    background-color: beige;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*menu slut*/
+
+.stilart {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: beige;
+    width: 1000px;
+    padding: 50px;
+
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    line-height: 20px;
+}
+
+p {
+    font-family: 'open sans', sans-serif;
+    font-size: 1em;
+}
