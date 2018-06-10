@@ -129,3 +129,9 @@ p {
     font-family: 'open sans', sans-serif;
     font-size: 2em;
 }
+
+footer {
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
