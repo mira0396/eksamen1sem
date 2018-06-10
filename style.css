@@ -110,10 +110,12 @@ body {
 .stilart {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
-    background-color: beige;
-    width: 1000px;
-    padding: 50px;
+    justify-content: center;
+    margin: 30px;
+
+    padding: 20px;
+    background-color: #F2ECD3;
+    border-radius: 25px;
 
 }
 
