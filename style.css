@@ -11,6 +11,7 @@ body {
 /*parallax start*/
 
 #background_image {
+    display: flex;
     height: 90vh;
     width: 100%;
     background-image: url(images/forsideimage.jpg);
@@ -112,22 +113,41 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin: 30px;
-
     padding: 20px;
     background-color: #F2ECD3;
     border-radius: 25px;
 
 }
 
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 20px;
+    background-color: #F2ECD3;
+    border-radius: 25px;
+}
+
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-size: 2em;
     line-height: 20px;
 }
 
 p {
-    font-family: 'open sans', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: 'Philosopher', sans-serif;
     font-size: 2em;
+
+}
+
+h3 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1em;
 }
 
 footer {
