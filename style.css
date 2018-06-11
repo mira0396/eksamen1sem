@@ -128,6 +128,11 @@ body {
     border-radius: 25px;
 }
 
+.column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
 h1 {
     font-family: 'Philosopher', sans-serif;
     font-size: 2em;
